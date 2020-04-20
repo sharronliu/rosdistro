@@ -1340,18 +1340,18 @@ repositories:
   librealsense:
     doc:
       type: git
-      url: https://github.com/sharronliu/librealsense.git
+      url: https://github.com/IntelRealSense/librealsense.git
       version: ros2debian
     release:
       packages:
       - librealsense2
       tags:
         release: release/dashing/{package}/{version}
-      url: https://github.com/sharronliu/librealsense-release.git
-      version: v2.34.0-ros2
+      url: https://github.com/ros2-gbp/librealsense-release.git
+      version: 2.34.0
     source:
       type: git
-      url: https://github.com/sharronliu/librealsense.git
+      url: https://github.com/IntelRealSense/librealsense.git
       version: ros2debian
     status: maintained
   libyaml_vendor:
@@ -2360,7 +2360,7 @@ repositories:
   ros2_intel_realsense:
     doc:
       type: git
-      url: https://github.com/sharronliu/ros2_intel_realsense.git
+      url: https://github.com/intel/ros2_intel_realsense.git
       version: refactor
     release:
       packages:
@@ -2370,11 +2370,11 @@ repositories:
       - realsense_examples
       tags:
         release: release/dashing/{package}/{version}
-      url: https://github.com/sharronliu/ros2_intel_realsense-release.git
+      url: https://github.com/ros2-gbp/ros2_intel_realsense-release.git
       version: 2.0.7
     source:
       type: git
-      url: https://github.com/sharronliu/ros2_intel_realsense.git
+      url: https://github.com/intel/ros2_intel_realsense.git
       version: refactor
     status: maintained
   ros2_object_analytics:
